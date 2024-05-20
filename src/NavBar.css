@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#menu{
+    /* width: 10%; */
+}
+.searchContainer input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 80%;
+    
+}
+.searchContainer input:focus{
+    border: none;
+    outline: none;
+}
+.searchContainer img{
+    padding-left: 5px;
+    width: 25px;
+}
+.searchContainer input:focus .searchContainer img{
+    /* background-color:bisque; */
+    /* box-shadow: 0 0 5px blue; */
+    /* border:3px solid blue; */
+    filter:drop-shadow(0 0 5px blue)
+}
+.searchContainer{
+    border:1px solid black;
+    /* width: 50%; */
+    max-width: 200px;
+    display: flex;
+    border-radius: 5px;
+    padding: 2px;
+}
+#homecontainer{
+    min-height: 75vh;
+    margin-top: 10px;
+    display: grid;
+    place-items: center;
+    background-color:whitesmoke
+
+    
+
+}
+#photoindexpage{
+    transition: all 0.4s;
+    /* border-radius: 10px; */
+    /* border-radius: 10px; */
+    visibility: visible;
+}
+#photoindexpage:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    filter: grayscale(100%);
+    
+    
+    
+}
+#contentcontainer{
+    /* background:transparent ; */
+   
+    color:black;
+    transition: all .4s;
+    width: 50%;
+}
+#contentcontainer:hover{
+    /* background:linear-gradient(45deg,#0000008e,#0000008e),url(image.jpg);
+    color: white; */
+}
+#ExploreUs{
+ color:black; 
+ padding: 5px;
+ cursor: pointer;
+ transition: all 0.9s;
+ position: relative;
+ /* box-shadow: 0px 0px 0px red; */
+ width: max-content;
+ border-radius: 1rem;
+ /* border-bottom: 5px solid red; */
+ /* width: 10%; */
+}
+#ExploreUs:hover{
+    /* box-shadow: 3px 3px 0px red; */
+}
+#ExploreUs::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 0;
+    z-index: 100000;
+    transition: all .4s;
+    background:red;
+    border-bottom-right-radius: 10px;
+    /* transform: rotate(10deg); */
+}
+
+ #ExploreUs:hover::after{
+  
+width: 80px;
+}
+
+#explorecontainer{
+position:relative ;
+display:grid;
+}
+.sampleborder{
+    position: absolute;
+    bottom: 0;
+    height:2px;
+    width:0;
+    background-color: darkseagreen;
+    transition: all 0.5s;
+}
+ #explorecontainer:hover .sampleborder:hover{
+    width: 100%;
+    
+}
+.package-container{
+    /* background-color: black; */
+    /* display: flex;
+    justify-content: center; */
+    
+}
+.image-container{
+    /* width: 300px; */
+    /* height:50%; */
+    /* background-color:black; */
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 6px;
+}
+.image-container1{
+    /* width: 300px;
+    height: 180px; */
+    /* background-color: black;  */
+    overflow: hidden;
+    /* margin-top: 10px; */
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px;
+    
+}
+.image-container2{
+    /* width:230px; */
+    /* background-color: lightgreen; */
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px;
+}
+.package-image{
+    /* width:75%; */
+    /* background-color: lightgreen; */
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ourphotographies{
+    /* margin-top: 10px; */
+    background-color:whitesmoke;
+    
+    /* display: flex; */
+    /* color: white; */
+}
+.ourphotographies img{
+    border-radius: 10px;
+}
+.p-number{
+    color:rgb(181, 11, 73);
+}
+.p-content{
+    color:rgb(31, 150, 31);
+    
+}
+#panelcontainer{
+    background-color: whitesmoke;
+}
+#ourworks{
+    color:black;
+}
+#ourwork-imgcontainer{
+    transition: all 0.4s;
+    cursor: pointer;
+}
+#ourwork-imgcontainer:hover{
+  
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+#div-work{
+    overflow: hidden;
+}
+#package-imagecontainer{
+    transition: all 0.4s;
+}
+#package-imagecontainer:hover{
+    transform: scale(1.2);
+    filter: grayscale(100%);
+}
+.model-div{
+    background:linear-gradient(45deg,#0000008e,#0000008e), url(couplephoto.jpg) no-repeat fixed center;
+    background-size: cover;
+    color: whitesmoke;
+}
+#login-div{
+    height: 100vh;
+    background:linear-gradient(45deg,#0000008e,#0000008e),url(couple3.jpeg) no-repeat fixed center;
+}
+#login-form{
+    background: linear-gradient(90deg,#0000008e,#0000008e);
+    color: white;
+}
+#registerform-div{
+    height: 100vh;
+    background:linear-gradient(45deg,#0000008e,#0000008e),url(couple3.jpeg)no-repeat fixed center;
+}
+#registerform{
+    background: linear-gradient(90deg,#0000008e,#0000008e);
+    color:white;
+}

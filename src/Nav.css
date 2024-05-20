@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Register{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    /* padding: 10px; */
+    width: 50%;
+    height: 70%;
+    /* background-color:mediumpurple; */
+    
+}
+
+.container{
+ width: 50%;
+ height: 150%;
+ padding: 10px;
+ /* background-color: aquamarine; */
+ border:1px solid black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.maincontainer{
+    width:100;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+input{
+width:75%;
+padding: 5px;
+text-align: center;
+
+}
