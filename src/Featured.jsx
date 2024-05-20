@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function Featured() {
   return (
     <>
-    <h1>Featured</h1>
+      <h1>React</h1>
     </>
-  )
+  );
 }
 
-export default Featured
+export default Featured;
